@@ -1,0 +1,10 @@
+{
+    "manifest_version": 3,
+    "name": "Simple TTS",
+    "description": "Reads selected text aloud",
+    "version": "1.0",
+    "permissions": ["activeTab", "scripting"],   // add "scripting"
+    "action": { "default_title": "Speak selection" },
+    "background": { "service_worker": "background.js" }
+  }
+  
